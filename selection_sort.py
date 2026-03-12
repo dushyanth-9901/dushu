@@ -13,4 +13,5 @@ data = list(map(int, input("enter a array: ").split()))
 size=len(data)
 selectionSort(data, size) 
 print('Sorted Array in Ascending Order:') 
+
 print(data)
